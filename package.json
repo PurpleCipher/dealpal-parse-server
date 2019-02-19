@@ -1,0 +1,27 @@
+{
+  "name": "jara-server",
+  "version": "1.0.0",
+  "description": "Discount aggregation",
+  "main": "index.js",
+  "author": "Thompson Edolo",
+  "license": "MIT",
+  "scripts": {
+    "start": "node server/server.js"
+  },
+  "dependencies": {
+    "@parse/fs-files-adapter": "^1.0.1",
+    "app-root-path": "^2.1.0",
+    "body-parser": "^1.18.3",
+    "cors": "^2.8.4",
+    "express": "^4.16.3",
+    "lodash": "^4.17.11",
+    "moment": "^2.22.2",
+    "parse-dashboard": "^1.2.0",
+    "parse-server": "^3.0.0"
+  },
+  "devDependencies": {
+    "mocha": "^5.2.0",
+    "should": "^13.2.3",
+    "supertest": "^3.3.0"
+  }
+}
